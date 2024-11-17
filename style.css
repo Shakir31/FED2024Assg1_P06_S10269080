@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden; /* Prevent horizontal overflow */
+}
+.abhaya-libre-medium {
+    font-family: "Abhaya Libre", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.abhaya-libre-regular {
+    font-family: "Abhaya Libre", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.open-sans {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+header h1 {
+    display: flex;
+    background-color: #cdb9a7;
+    height: 100px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+main section h1 {
+    font-size: 150px;
+}
+
+main section p {
+    font-size: 40px;
+}
+
+main section h2 {
+    font-size: 40px;
+}
+
+.top {
+    display: flex;
+    height: auto;
+    padding: 40px;
+    background-color: #F8F5F0;
+}
+
+.right {
+    display: flex;
+    height: 100%;
+    min-width: 100%;
+    justify-content: center;
+}
+
+button {
+    display: block;
+    background-color: burlywood;
+    height: 50px;
+    width: 100%; /* Make button full width */
+    max-width: 200px; /* Optional max width */
+    border-radius: 20px;
+}
+.head {
+    font-size: 64px;
+}
+.para {
+    font-size: 32px;
+    width: 70%;
+    letter-spacing: 3px;
+}
+main header {
+   font-size :80px; 
+}
+main p {
+   font-size :20px; 
+   margin :20px 0; 
+   text-align :center; 
+}
+.sectop{
+   display:flex; 
+   flex-direction :column; 
+   align-items :center; 
+   padding :10px;
+   background-color: #cdb9a7;
+}
+
+.started .box img {
+   width :100%; /* Ensure images are responsive */
+}
+.started {
+   display:flex; 
+   border :8px solid green; 
+   height:auto; /* Allow height to adjust based on content */
+   justify-content :space-around;
+   background-color: #cdb9a7;
+}
+.box {
+   display:flex;  
+   flex-direction :column;  
+   align-items :center;  
+   gap :20px;  
+}
+.thirdtop {
+    background-color: #cdb9a7;
+}
+#testimonies {  
+   text-align:center;   
+   font-size : 64px;
+}
+.rectangle {
+    height: 500px;
+    width: 357px;
+    background-color: #F8F5F0;
+    margin:40px;
+    border-radius: 20px;
+}
+.container {
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.fbutton {  
+   display:flex;   
+   border :8px solid black;   
+   justify-content: center;
+   background-color: #cdb9a7;
+}
+footer header {  
+   font-size :40px;  
+}
+footer p {  
+   font-size :20px;  
+}
