@@ -9,10 +9,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div id="sidebar" class="sidebar">
+        <button id="closeBtn" class="close-button">✖</button>
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#testimony">Testimonies</a>
+        <a href="#firsttime">First Time?</a>
+    </div>
     <header class="title">
+        <span id="toggleBtn" class="toggle-button">☰</span>
         <h1 class="abhaya-libre-medium">Bright Minds Tutoring</h1>
     </header>
-    <div>
+    <div id="home">
         <main class="top">
             <section class="left">
                 <h1 class="abhaya-libre-medium">Lorem</h1>
@@ -25,7 +33,7 @@
             </section>
         </main>
     </div>
-    <div>
+    <div id="services">
         <main class="sectop">
             <header class="abhaya-libre-medium head">
                 Services
@@ -46,7 +54,7 @@
             </div>
         </section>
     </div>
-    <div class="thirdtop">
+    <div class="thirdtop" id="testimony">
         <h2 id="testimonies" class="abhaya-libre-medium">Testimonies</h2>
         <main class="container">
             <div class="rectangle">1</div>
@@ -56,7 +64,7 @@
             <div class="rectangle">5</div>
         </main>
     </div>
-    <div class="th">
+    <div class="th" id="firsttime">
         <main class="sectop">
             <header class="abhaya-libre-medium head">
                 First Time?
@@ -80,5 +88,6 @@
         <p class="open-sans">Contact Us</p>
         <p class="open-sans"><img src="placeholder.jpg" style="height: 10px; width: 10px; margin: 5px;">@brightminds</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
