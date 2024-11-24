@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     overflow-x: hidden;
     width: 100%;
@@ -24,6 +23,14 @@ body {
     font-style: normal;
     font-variation-settings:
       "wdth" 100;
+}
+.title {
+    position: fixed;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 header h1 {
     display: flex;
@@ -75,14 +82,8 @@ button {
     font-size: 32px;
     width: 70%;
     letter-spacing: 3px;
-}
-main header {
-   font-size :80px; 
-}
-main p {
-   font-size :20px; 
-   margin :20px 0; 
-   text-align :center; 
+    margin :20px 0;
+    text-align: center;
 }
 .sectop{
    display:flex; 
@@ -135,9 +136,6 @@ main p {
    justify-content: center;
    background-color: #cdb9a7;
    padding-bottom: 60px;
-}
-footer header {  
-   font-size :40px;  
 }
 footer p {  
    font-size :20px;  
