@@ -211,6 +211,9 @@ footer p {
         margin: 0;
         padding: 0;
     }
+    .top {
+        gap: 10px;
+    }
     .title h1 {
         font-size: 25px;
     }
@@ -218,7 +221,7 @@ footer p {
         font-size: 2em;
     }
     .top p {
-        font-size: 1.5em;
+        font-size: 1em;
     }
     button {
         margin: 10px;
