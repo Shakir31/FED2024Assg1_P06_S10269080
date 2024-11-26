@@ -25,14 +25,12 @@ body {
     font-variation-settings:
       "wdth" 100;
 }
-/* .title {
-    position: fixed;
-    left: 0;
-    right: 0;
-    width: 100%;
+.title {
+    position: sticky;
+    top: 0;
     z-index: 1000;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-} */
+    background-color: #cdb9a7;
+}
 .title {
     display: flex;
     justify-content: center;
@@ -45,7 +43,7 @@ body {
     height: 100%;
     width: 0;
     position: fixed;
-    z-index: 1;
+    z-index: 1005;
     top: 0;
     left: 0;
     background-color: #C0A891;
