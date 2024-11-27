@@ -30,8 +30,6 @@ body {
     top: 0;
     z-index: 1000;
     background-color: #cdb9a7;
-}
-.title {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -39,6 +37,7 @@ body {
     height: 100px;
     color: white;
 }
+
 .sidebar {
     height: 100%;
     width: 0;
@@ -94,7 +93,8 @@ body {
 }
 button {
     display: block;
-    background-color: burlywood;
+    background-color: #cdb9a7;
+    border: none;
     height: 50px;
     width: 100%;
     max-width: 200px;
@@ -277,7 +277,6 @@ footer ul{
     }
     button {
         display: block;
-        background-color: burlywood;
         height: auto;
         width: 50%;
     }
@@ -360,7 +359,6 @@ footer ul{
     }
     button {
         display: block;
-        background-color: burlywood;
         height: auto;
         width: 50%;
     }
