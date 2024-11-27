@@ -166,8 +166,11 @@ img {
    background-color: #cdb9a7;
    padding-bottom: 60px;
 }
-footer p {  
-   font-size :20px;  
+.questions {
+    padding: 20px;
+}
+footer ul{
+    padding-left: 20px;
 }
 .box {
     display: flex;
