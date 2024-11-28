@@ -12,7 +12,7 @@ The website is a comprehensive platform connecting students with experienced tut
 Wireframe:
 https://www.figma.com/design/zw3G2QQ5iPHF3h8Hg0JF6G/FED-Asg1?node-id=0-1&node-type=canvas&t=nPMBtrgnop5qos85-0
 
-## Who does the website cator to?
+## Who does the website cater to?
 
 As mentioned above, the user would typically be students, parents and or guardians. The website will be of value in various ways such as offering tutoring sessions that cater to individual learning styles and needs, a team of dedicated educators who employ innovative teaching methods to engage students, and flexibility of both in-person and online tutoring sessions, providing convenience and accessibility.
 
